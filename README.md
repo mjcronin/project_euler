@@ -9,3 +9,9 @@ As a physicist by training, and an applied (rather than theoretical) physicist i
 ## Notes
 # Problem 1
 Easy problem, I don't think I suspect my previous solutions were less elegant.
+# Problem 2
+This was a fun problem coming from a non-CS background. I confused my recollection that some later problem about finding primes requires an efficient algorithm with the problem of generating Fibonacci numbers at the relatively small scale required for this problem. Instead of simply generating the sequence by addition, as would probably have been the most efficient course of action, I searched for fast Fibonacci algorithms.
+
+I came across [this webpage](https://www.nayuki.io/page/fast-fibonacci-algorithms#:~:text=Definition%3A%20The%20Fibonacci%20sequence%20is,of%20algorithms%20to%20do%20so.) and implemented a simplified version of the matrix exponentiation algorithm. The full algorithm is particualrly efficient when calculating some Nth number in the Fibonacci sequence without iteratively generating the entire sequence, and requires the use of [exponention by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) to maintain efficiency as N becomes large.
+
+While implementing the algorithm, I also discovered the python `@` operator, which can be used to generate the matrix product of two numpy arrays.
