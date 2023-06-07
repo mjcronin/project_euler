@@ -12,7 +12,6 @@ def solution(n: int) -> None:
         fibnums = np.append(fibnums, newnums[0])
         newnums = fibmat@newnums
 
-    print(fibnums)
     fibnums = fibnums.flatten()
 
     answer = fibnums[(fibnums%2==0)].sum()
@@ -37,8 +36,8 @@ def main():
 
             1, 2 ,3, 5, 8, 13, 21, 34, 55, 89, ...
 
-        By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
-    """.format()
+        By considering the terms in the Fibonacci sequence whose values do not exceed {}, find the sum of the even-valued terms.
+    """.format(args.n)
     print(problem_statement)
 
     answer = solution(args.n)
