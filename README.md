@@ -7,9 +7,9 @@ It's 2023, and after a hiatus in personal projects, another shot at Project Eule
 
 As a physicist by training, and an applied (rather than theoretical) physicist in my academic career, I did not cover the data structures and algorithms content found in mathematics and computer science courses, or more heavily computational physics, etc. As such I absolutely will be researching problems where necessary to identify efficient algorithms to find solutions. My intention is to keep notes on each problem in this document, and try to be diligent in citing external sources when they are used.
 ## Notes
-# Problem 1
+### Problem 1
 Easy problem, I don't think I suspect my previous solutions were less elegant.
-# Problem 2
+### Problem 2
 This was a fun problem coming from a non-CS background. I confused my recollection that some later problem about finding primes requires an efficient algorithm with the problem of generating Fibonacci numbers at the relatively small scale required for this problem. Instead of simply generating the sequence by addition, as would probably have been the most efficient course of action, I searched for fast Fibonacci algorithms.
 
 I came across [this webpage](https://www.nayuki.io/page/fast-fibonacci-algorithms#:~:text=Definition%3A%20The%20Fibonacci%20sequence%20is,of%20algorithms%20to%20do%20so.) and implemented a simplified version of the matrix exponentiation algorithm. The full algorithm is particualrly efficient when calculating some Nth number in the Fibonacci sequence without iteratively generating the entire sequence, and requires the use of [exponention by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) to maintain efficiency as N becomes large.
