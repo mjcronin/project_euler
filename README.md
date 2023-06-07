@@ -8,7 +8,7 @@ It's 2023, and after a hiatus in personal projects, another shot at Project Eule
 As a physicist by training, and an applied (rather than theoretical) physicist in my academic career, I did not cover the data structures and algorithms content found in mathematics and computer science courses, or more heavily computational physics, etc. As such I absolutely will be researching problems where necessary to identify efficient algorithms to find solutions. My intention is to keep notes on each problem in this document, and try to be diligent in citing external sources when they are used.
 ## Notes
 ### Problem 1
-Easy problem, I don't think I suspect my previous solutions were less elegant.
+Easy problem, I suspect my previous solutions were less elegant.
 ### Problem 2
 This was a fun problem coming from a non-CS background. I confused my recollection that some later problem about finding primes requires an efficient algorithm with the problem of generating Fibonacci numbers at the relatively small scale required for this problem. Instead of simply generating the sequence by addition, as would probably have been the most efficient course of action, I searched for fast Fibonacci algorithms.
 
