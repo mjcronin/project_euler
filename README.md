@@ -1,5 +1,5 @@
 # project_euler
-Solutions (and/or attempted solutions) to Project Euler problems - 2023
+Solutions (and/or attempted solutions) to [Project Euler](https://projecteuler.net) problems - 2023
 ## Introduction
 I was introduced to Project Euler back in 2018 or 2019, when I was working to transition from a research career in academia to a Data Science career in industry. I had worked in MATLAB for over 10 years, and figured it was as good a project as any to start working on in Python. I briefly re-visit at the height of COVID, and I think made it up to problem 12 or so.
 
